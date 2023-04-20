@@ -18,7 +18,7 @@ request_headers = {
 request_data = {
     "model": "text-davinci-003",
     "prompt": f"Escreva um código python para {arg.prompt}",
-    "max_tokens": 100,
+    "max_tokens": 1000,
     "temperature": 0.5,
 }
 
