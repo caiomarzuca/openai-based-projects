@@ -4,7 +4,7 @@ import argparse
 import os
 import shutil
 
-# Adicionando argumentos para processamento 
+# add arg for request data and file creation
 parser = argparse.ArgumentParser()
 parser.add_argument("prompt", help="The prompt to send to the OpenAI API")
 parser.add_argument("file_name", help="The Nme of the file to save python code")
