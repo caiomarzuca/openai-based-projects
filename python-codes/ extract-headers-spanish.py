@@ -32,4 +32,8 @@ with open("header_espanhol.html", "w", encoding="utf-8") as file:
     file.write('</html>\n')
 
 
+def df_constructor ():
+    pass
 
+def insert_into_db ():
+    pass
